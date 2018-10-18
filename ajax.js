@@ -1,7 +1,7 @@
 (function ($) {
 
   $('#btnLoadText').click(function () { $("#showResult").load("show.txt"); });
-  $('#btnAjax').click(function () { callRestAPI() });
+  $('#btnAjax ').click(function () { callRestAPI() });
 
   // Perform an asynchronous HTTP (Ajax) API request.
   function callRestAPI() {
